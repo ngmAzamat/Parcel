@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "type": "module",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.13.3",
+    "@parcel/transformer-sass": "^2.13.3",
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "parcel src/index.pug --no-source-maps",
+    "build": "rm -fr dist; parcel build src/index.pug --no-source-maps"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

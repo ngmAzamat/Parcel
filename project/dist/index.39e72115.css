@@ -1,0 +1,10 @@
+@import "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css";
+@import "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css";
+body {
+    background-color: red;
+    min-width: 100%;
+    min-height: 100vh;
+}
+h1 {
+    color: #fff;
+}
